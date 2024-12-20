@@ -19,7 +19,7 @@ body{
     height: 60px;
 }
 .logo h1{
-    font-family: Source Serif 4;
+    font-family: 'Source Serif 4', serif;
     font-size: 42px;
     font-weight: 600;
 }
@@ -52,31 +52,33 @@ a{
 }
 .article{
     width:100%;
-    height:1156px;
-    margin-bottom: 40px;
-    padding:100px 0px;
+    padding: 96px 0;
     box-sizing: border-box;
     overflow: hidden;
-}
-.article-heading{
-    height:240px;   
-    margin-bottom: 44px;
-    text-align: center;
-    padding: 12px;
 }
 .article-image{
     width:100%;
     box-sizing: border-box;
+    display: block;
+    margin-top: 50px;
 }
 .article-image img{
-    height:100%;
+    height:auto;
     width: 100%;
     border-radius: 28px;
 }
-.article-heading h1{
-    font-size:120px;
-    margin-top:0px;
-    line-height: 120px;
+.article h1{
+    font-size: 120px;
+    width: 100%;
+    width: 100%;
+    height:240px;   
+    margin-bottom: 44px;
+    text-align: center;
+    padding: 12px;
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .grid{
     width: 100%;
